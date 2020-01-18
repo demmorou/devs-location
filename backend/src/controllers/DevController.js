@@ -1,6 +1,7 @@
 const axios = require('axios');
 
 const Dev = require('./../models/Dev');
+const parseStringAsArray = require('./../utils/parseStringAsArray');
 
 module.exports = {
     async index(req, res) {
@@ -19,7 +20,7 @@ module.exports = {
     
             const { name = login, avatar_url, bio } = response.data;
             
-            const techsArray = techs.split(',').map(tech => tech.trim());
+            const techsArray = parseStringAsArray(techs);
             
             const location = {
                 type: 'Point',
@@ -36,6 +37,28 @@ module.exports = {
             });
         }
 
-        res.json(dev);
-    }
+        res.json({ dev });
+    },
+
+    async update(req, res) {
+        const { github_username } = req.query;
+        const dev = await Dev.updateOne({github_username}, req.body);
+
+        if (!dev) {
+            res.json({ message: 'User not found!' });
+        }
+
+        res.json({ dev });
+    },
+
+    async destroy(req, res) {
+        const { github_username } = req.query;
+        const dev = await Dev.deleteOne({github_username});
+
+        if (!dev) {
+            res.json({ message: 'User not found!' });
+        }
+
+        res.json({ dev });
+    },
 }
