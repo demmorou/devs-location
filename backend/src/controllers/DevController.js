@@ -37,7 +37,7 @@ module.exports = {
             });
         }
 
-        res.json({ dev });
+        res.json(dev);
     },
 
     async update(req, res) {
