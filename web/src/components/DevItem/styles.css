@@ -9,6 +9,8 @@ li.dev-item header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: #f7f7f7;
+    border-radius: 2px;
 }
 
 li.dev-item header img {
@@ -38,14 +40,23 @@ li.dev-item p {
     font-size: 14px;
     line-height: 20px;
     margin: 10px 0;
+    text-align: justify;
 }
 
-li.dev-item a {
+li.dev-item .options a {
     color: #8e4dff;
     font-size: 14px;
     text-decoration: none;
 }
 
-li.dev-item a:hover {
+li.dev-item .options a:hover {
     color: #5a2ea6;
+}
+
+li.dev-item .options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    list-style: none;
+    align-items: center;
 }
