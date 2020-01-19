@@ -41,7 +41,7 @@ module.exports = {
     },
 
     async update(req, res) {
-        const { github_username } = req.query;
+        const { github_username } = req.params;
         const dev = await Dev.updateOne({github_username}, req.body);
 
         if (!dev) {
@@ -52,8 +52,8 @@ module.exports = {
     },
 
     async destroy(req, res) {
-        const { github_username } = req.query;
-        const dev = await Dev.deleteOne({github_username});
+        const { _id } = req.params;
+        const dev = await Dev.deleteOne({ _id });
 
         if (!dev) {
             res.json({ message: 'User not found!' });
