@@ -47,10 +47,15 @@ li.dev-item .options a {
     color: #8e4dff;
     font-size: 14px;
     text-decoration: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 li.dev-item .options a:hover {
-    color: #5a2ea6;
+    color: #fff;
+    background: #d7c8f1;
 }
 
 li.dev-item .options {
