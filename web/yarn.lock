@@ -2067,7 +2067,7 @@ aws4@^1.8.0:
 
 axios@^0.19.1:
   version "0.19.1"
-  resolved "http://r.cnpmjs.org/axios/download/axios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
+  resolved "https://r.cnpmjs.org/axios/download/axios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
   integrity sha1-imoE7tI9/nJ0fh3UPGBLjxZ3tao=
   dependencies:
     follow-redirects "1.5.10"
@@ -2447,9 +2447,9 @@ bser@^2.0.0:
     node-int64 "^0.4.0"
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -3371,7 +3371,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.
 
 debug@=3.1.0:
   version "3.1.0"
-  resolved "http://r.cnpmjs.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  resolved "https://r.cnpmjs.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
   dependencies:
     ms "2.0.0"
@@ -4425,7 +4425,7 @@ flush-write-stream@^1.0.0:
 
 follow-redirects@1.5.10:
   version "1.5.10"
-  resolved "http://r.cnpmjs.org/follow-redirects/download/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  resolved "https://r.cnpmjs.org/follow-redirects/download/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
   integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
   dependencies:
     debug "=3.1.0"
@@ -8522,7 +8522,7 @@ react-error-overlay@^6.0.4:
 
 react-icons@^3.8.0:
   version "3.8.0"
-  resolved "http://r.cnpmjs.org/react-icons/download/react-icons-3.8.0.tgz#229de5904809696c9f46932bd9b6126b2522866e"
+  resolved "https://r.cnpmjs.org/react-icons/download/react-icons-3.8.0.tgz#229de5904809696c9f46932bd9b6126b2522866e"
   integrity sha1-Ip3lkEgJaWyfRpMr2bYSayUihm4=
   dependencies:
     camelcase "^5.0.0"
@@ -9374,9 +9374,9 @@ source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
     urix "^0.1.0"
 
 source-map-support@^0.5.6, source-map-support@~0.5.12:
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.16.tgz#0ae069e7fe3ba7538c64c98515e35339eac5a042"
-  integrity sha512-efyLRJDr68D9hBBNIPWFjhpFzURh+KJykQwvMyW5UiZzYwoF6l4YMMDIJJEyFWxWCqfyxLzz6tSfUFR+kXXsVQ==
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -9828,9 +9828,9 @@ terser-webpack-plugin@^1.4.1:
     worker-farm "^1.7.0"
 
 terser@^4.1.2, terser@^4.3.9:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.4.2.tgz#448fffad0245f4c8a277ce89788b458bfd7706e8"
-  integrity sha512-Uufrsvhj9O1ikwgITGsZ5EZS6qPokUOkCegS7fYOdGTv+OA90vndUbU6PEjr5ePqHfNUbGyMO7xyIZv2MhsALQ==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
